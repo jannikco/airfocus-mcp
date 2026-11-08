@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-airfocus",
+      "description": "Connect AI agents to airfocus using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-airfocus/SKILL.md": "217028496c86850f0293a590a3aec537932a8efa081cf6006ae7e5aab17191e6"
+  }
+}
