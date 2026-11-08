@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "eab83c5457ca4abcb8d51e66785ab43060b500dadc67abeabfcd94afdc3f0466",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://developer.airfocus.com/openapi.json"
+  ],
+  "id": "airfocus-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "airfocus MCP setup and connection checker",
+  "description": "Generate airfocus MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "airfocus",
+  "appName": "airfocus",
+  "providerDocs": "https://developer.airfocus.com/openapi.json",
+  "providerWebsite": "https://airfocus.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://developer.airfocus.com/authentication.html",
+    "tenantRequired": true,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-airfocus-mcp"
+}
